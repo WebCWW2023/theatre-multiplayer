@@ -13,12 +13,14 @@ const tokenGenerator = require("./tokenGeneration").generateToken;
 /*-----------------database connection-------------------*/
 // var con = mysql.createConnection({
  
-// host: "localhost",
-// user: "metaverse_user",
-// password: "Hzja72#9",
-// database: "metaverse_saas",
-
-// });
+var con = mysql.createConnection({
+ 
+  host: "13.200.71.91",
+  user: "worldbeyond_worldbeyond2023",
+  password: "e^gU@]1t_1YI",
+  database: "worldbeyond_metaverse2023",
+  
+  });
 
 app.use(express.static("."));
 
